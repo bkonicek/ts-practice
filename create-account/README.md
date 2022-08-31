@@ -6,3 +6,4 @@ If the original email address already contains a `+`, it uses a `-` as the separ
 ## Usage
 1. To run the code from source: `npm run ts-run`
 2. To compile it to JS: `npm build`
+3. To run tests: `npm run test`

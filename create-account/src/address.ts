@@ -1,4 +1,4 @@
-function createAccountEmail(email: string, env: string): string {
+export function createAccountEmail(email: string, env: string): string {
     if (!email.includes('@')) {
         throw new Error("Error: Must provide a valid email address as input!");
     }
@@ -14,7 +14,3 @@ function createAccountEmail(email: string, env: string): string {
 
     return username.concat(separator, env, "@", domain);
 }
-
-console.log(createAccountEmail("test@example.com", "prod"));
-console.log(createAccountEmail("test-123@example.com", "dev"));
-console.log(createAccountEmail("test+aws@example.com", "dev"));

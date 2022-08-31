@@ -1,5 +1,7 @@
 {
   "devDependencies": {
+    "@types/jest": "^29.0.0",
+    "ts-jest": "^28.0.8",
     "ts-node": "^10.9.1",
     "typescript": "^4.8.2"
   },
@@ -7,7 +9,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npx jest",
     "build": "npx tsc",
     "ts-run": "npx ts-node src/address.ts"
   },
