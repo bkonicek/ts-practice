@@ -8,6 +8,5 @@
         "esModuleInterop": true,
         "forceConsistentCasingInFileNames": true,
         "outDir": "out",
-        // "rootDir": "src"
     }
 }
