@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1661904997647" clover="3.2.0">
+  <project timestamp="1661904997647" name="All files">
+    <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1" elements="13" coveredelements="13" complexity="0" loc="10" ncloc="10" packages="1" files="1" classes="1"/>
+    <file name="address.ts" path="/home/bkonicek/git/ts-practice/create-account/src/address.ts">
+      <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="3" type="cond" truecount="1" falsecount="0"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="6" count="2" type="stmt"/>
+      <line num="7" count="2" type="cond" truecount="1" falsecount="0"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="11" count="2" type="stmt"/>
+      <line num="12" count="2" type="stmt"/>
+      <line num="13" count="2" type="stmt"/>
+      <line num="15" count="2" type="stmt"/>
+    </file>
+  </project>
+</coverage>

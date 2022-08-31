@@ -9,9 +9,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "npx jest",
+    "test": "npx jest --coverage=false",
     "build": "npx tsc",
-    "ts-run": "npx ts-node src/address.ts"
+    "ts-run": "npx ts-node src/address.ts",
+    "cov": "npx jest"
   },
   "keywords": [],
   "author": "",
